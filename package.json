@@ -1,0 +1,39 @@
+{
+  "name": "amplify-cognito-promises",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Jacob Sidford",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jacobsidford/amplify-cognito-promises.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jacobsidford/amplify-cognito-promises/issues"
+  },
+  "homepage": "https://github.com/jacobsidford/amplify-cognito-promises#readme",
+  "keywords": [],
+  "jest": {
+    "testEnvironment": "node",
+    "testMatch": [
+      "**/__tests__/**/*.[j]s?(x)",
+      "**/?(*.)+(spec|test).[t]s?(x)"
+    ],
+    "testPathIgnorePatterns": [
+      "/node_modules/"
+    ]
+  },
+  "dependencies": {
+    "amazon-cognito-identity-js": "^4.3.4"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.10",
+    "jest": "^26.0.1",
+    "typescript": "^3.9.5"
+  }
+}
