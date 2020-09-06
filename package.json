@@ -32,10 +32,11 @@
       "/node_modules/"
     ]
   },
-  "dependencies": {
+  "peerDependencies": {
     "amazon-cognito-identity-js": "^4.3.4"
   },
   "devDependencies": {
+    "amazon-cognito-identity-js": "^4.3.4",
     "@types/jest": "^26.0.10",
     "jest": "^26.0.1",
     "typescript": "^3.9.5"
